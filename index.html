@@ -1,0 +1,13 @@
+<body contenteditable="true" style="overflow: auto; font-family: monospace;">
+</body>
+
+<script>
+    window.onload = () => {
+        const savedNote = localStorage.getItem('savedNote');
+        if (savedNote) document.body.innerHTML = savedNote;
+    };
+
+    document.body.addEventListener('input', () => {
+        localStorage.setItem('savedNote', document.body.innerHTML);
+    });
+</script>
