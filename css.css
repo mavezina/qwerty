@@ -3,4 +3,5 @@
 body {
     overflow: auto;
     font-family: 'Recursive', monospace;
+    margin: 80px;
 }
