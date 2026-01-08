@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wdth,wght@0,75..100,100..700;1,75..100,100..700&display=swap');
+
+.ibm-plex-sans {
+}
 
 body {
-    font-family: 'Recursive', monospace;
+    /* font-family: 'Recursive', monospace;   */
+    font-family: "IBM Plex Sans", sans-serif;
     line-height: 1.75;
     max-width: 42rem;
     margin: 5rem;
@@ -17,3 +22,4 @@ body {
 
 
 }
+
