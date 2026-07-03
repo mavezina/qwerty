@@ -4,17 +4,15 @@
 .ibm-plex-sans {
 }
 
-/*
 body {
     /* font-family: 'Recursive', monospace;   */
-    font-family: "IBM Plex Sans", sans-serif;
+    /* font-family: "IBM Plex Sans", sans-serif;  */
     line-height: 1.75;
     max-width: 42rem;
     margin: 5rem;
     /* font-variation-settings: "CASL" 1; */
     text-underline-offset: 0.15rem;
 }
-*/
 
 @media screen and (max-width: 500px) {
     
